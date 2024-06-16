@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+  background-color: rgb(88,83,70);
+  width: 600px;
+  color: #fff;
+  margin-left: 340px;
+  border-radius: 5px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.article {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+  transform: translateY(-5px);
+}
+
+.name {
+  padding: 10px;
+  background-color: rgb(88,83,70);
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.details {
+  padding: 10px;
+}
+
+.summary {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.details-button,
+.subscribe-button,
+.unsubscribe-button {
+  background-color: rgb(129,116,97);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover{
+  background-color: #0056b3;
+}
+
+.subscribe-button:hover{
+  background-color: #369c32;
+}
+
+.unsubscribe-button:hover {
+  background-color: #912727;
+}
+
+.details-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
